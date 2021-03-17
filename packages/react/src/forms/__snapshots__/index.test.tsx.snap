@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CdsControl snapshot 1`] = `
+<div
+  cds-layout="vertical gap:lg"
+>
+  <CdsControl
+    layout="compact"
+  >
+    <cds-control(CustomElement)
+      __forwardedRef={null}
+      layout="compact"
+    >
+      <cds-control
+        __forwardedRef={null}
+        layout="compact"
+      >
+        <label>
+          label
+        </label>
+        <input
+          placeholder="some custom control"
+        />
+        <CdsControlMessage>
+          <cds-control-message(CustomElement)
+            __forwardedRef={null}
+          >
+            <cds-control-message
+              __forwardedRef={null}
+            >
+              message text
+            </cds-control-message>
+          </cds-control-message(CustomElement)>
+        </CdsControlMessage>
+      </cds-control>
+    </cds-control(CustomElement)>
+  </CdsControl>
+  <CdsControl
+    layout="compact"
+    status="error"
+  >
+    <cds-control(CustomElement)
+      __forwardedRef={null}
+      layout="compact"
+      status="error"
+    >
+      <cds-control
+        __forwardedRef={null}
+        layout="compact"
+      >
+        <label>
+          label
+        </label>
+        <input
+          placeholder="some custom control"
+        />
+        <CdsControlMessage
+          status="error"
+        >
+          <cds-control-message(CustomElement)
+            __forwardedRef={null}
+            status="error"
+          >
+            <cds-control-message
+              __forwardedRef={null}
+            >
+              error message
+            </cds-control-message>
+          </cds-control-message(CustomElement)>
+        </CdsControlMessage>
+      </cds-control>
+    </cds-control(CustomElement)>
+  </CdsControl>
+  <CdsControl
+    layout="compact"
+    status="success"
+  >
+    <cds-control(CustomElement)
+      __forwardedRef={null}
+      layout="compact"
+      status="success"
+    >
+      <cds-control
+        __forwardedRef={null}
+        layout="compact"
+      >
+        <label>
+          label
+        </label>
+        <input
+          placeholder="some custom control"
+        />
+        <CdsControlMessage
+          status="success"
+        >
+          <cds-control-message(CustomElement)
+            __forwardedRef={null}
+            status="success"
+          >
+            <cds-control-message
+              __forwardedRef={null}
+            >
+              success message
+            </cds-control-message>
+          </cds-control-message(CustomElement)>
+        </CdsControlMessage>
+      </cds-control>
+    </cds-control(CustomElement)>
+  </CdsControl>
+</div>
+`;

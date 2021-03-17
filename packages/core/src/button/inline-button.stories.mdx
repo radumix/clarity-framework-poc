@@ -1,0 +1,60 @@
+import { Meta, Props, Story, Preview, API } from '@storybook/addon-docs/blocks';
+import { html, LitElement } from 'lit-element';
+
+<Meta title="Components/Inline Button" />
+
+# Inline Buttons
+
+Inline buttons are used inside and alongside textual content within Clarity components. They give action buttons a less prominent, yet familiar, visual presence.
+
+## Installation
+
+To use the inline button component import the component in your JavaScript.
+
+```typescript
+import '@cds/core/button/register.js';
+```
+
+```html
+<cds-inline-button>Click Here</cds-inline-button>
+```
+
+## Actions
+
+<Preview>
+  <Story id="stories-inline-button--actions" />
+</Preview>
+
+## Inline Buttons
+
+<Preview>
+  <Story id="stories-inline-button--various" />
+</Preview>
+
+## Inline Buttons With Icons
+
+<Preview>
+  <Story id="stories-inline-button--with-icons" />
+</Preview>
+
+## Disabled Link Buttons
+
+<Preview>
+  <Story id="stories-inline-button--disabled-inline-button" />
+</Preview>
+
+## Inline Buttons With Link
+
+<Preview>
+  <Story id="stories-inline-button--inline-button-links" />
+</Preview>
+
+## Custom Styles
+
+<Preview>
+  <Story id="stories-inline-button--custom-styles" />
+</Preview>
+
+## API
+
+<Props of={'cds-inline-button'} />

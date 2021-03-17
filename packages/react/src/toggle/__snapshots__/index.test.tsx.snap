@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CdsToggle snapshot 1`] = `
+<div>
+  <CdsToggleGroup>
+    <cds-toggle-group(CustomElement)
+      __forwardedRef={null}
+    >
+      <cds-toggle-group
+        __forwardedRef={null}
+      >
+        <label>
+          A toggle group
+        </label>
+        <CdsToggle>
+          <cds-toggle(CustomElement)
+            __forwardedRef={null}
+          >
+            <cds-toggle
+              __forwardedRef={null}
+            >
+              <label>
+                Toggle 1
+              </label>
+              <input
+                type="checkbox"
+              />
+            </cds-toggle>
+          </cds-toggle(CustomElement)>
+        </CdsToggle>
+        <CdsToggle>
+          <cds-toggle(CustomElement)
+            __forwardedRef={null}
+          >
+            <cds-toggle
+              __forwardedRef={null}
+            >
+              <label>
+                Toggle 2
+              </label>
+              <input
+                type="checkbox"
+              />
+            </cds-toggle>
+          </cds-toggle(CustomElement)>
+        </CdsToggle>
+        <CdsControlMessage>
+          <cds-control-message(CustomElement)
+            __forwardedRef={null}
+          >
+            <cds-control-message
+              __forwardedRef={null}
+            >
+              group message text
+            </cds-control-message>
+          </cds-control-message(CustomElement)>
+        </CdsControlMessage>
+      </cds-toggle-group>
+    </cds-toggle-group(CustomElement)>
+  </CdsToggleGroup>
+  <CdsToggle>
+    <cds-toggle(CustomElement)
+      __forwardedRef={null}
+    >
+      <cds-toggle
+        __forwardedRef={null}
+      >
+        <label>
+          Toggle
+        </label>
+        <input
+          type="checkbox"
+        />
+        <CdsControlMessage>
+          <cds-control-message(CustomElement)
+            __forwardedRef={null}
+          >
+            <cds-control-message
+              __forwardedRef={null}
+            >
+              message text
+            </cds-control-message>
+          </cds-control-message(CustomElement)>
+        </CdsControlMessage>
+      </cds-toggle>
+    </cds-toggle(CustomElement)>
+  </CdsToggle>
+</div>
+`;

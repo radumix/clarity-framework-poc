@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["es2017", "dom"],
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist/core",
+    "declaration": true,
+    "inlineSources": true,
+    "types": ["jasmine", "@types/resize-observer-browser"],
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictFunctionTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": false,
+    "sourceMap": true,
+    "inlineSourceMap": false,
+    "importHelpers": true,
+    "composite": true,
+    "baseUrl": "./",
+    "rootDir": "./",
+    "paths": {
+      "@cds/core/*": ["./src/*"]
+    },
+    "plugins": [
+      {
+        "name": "ts-lit-plugin",
+        "strict": true,
+        "rules": {
+          "no-missing-import": "off",
+          "no-unknown-attribute": "off",
+          "globalAttributes": ["cds-layout", "cds-list", "cds-text"]
+        }
+      }
+    ]
+  },
+  "exclude": ["dist", "node_modules", "build"]
+}

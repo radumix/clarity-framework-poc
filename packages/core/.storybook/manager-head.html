@@ -1,0 +1,110 @@
+<style>
+  .sidebar-item[id*='experimental'] {
+    display: none;
+  }
+
+  .docblock-propstable-body td {
+    min-width: 240px;
+  }
+
+  body {
+    background: var(--cds-alias-object-app-background) !important;
+  }
+
+  .sidebar-container > .os-host,
+  .search-field code {
+    background: transparent !important;
+  }
+
+  .search-field:focus-within svg {
+    color: var(--cds-global-typography-color-400) !important;
+  }
+
+  .search-field input {
+    color: var(--cds-global-typography-color-400) !important;
+    border-color: var(--cds-alias-object-border-color) !important;
+    background: transparent !important;
+  }
+
+  body[localhost] .sidebar-item[id*='experimental'] {
+    display: flex;
+  }
+
+  #storybook-preview-wrapper,
+  .os-host,
+  #panel-tab-content {
+    background: var(--cds-alias-object-container-background) !important;
+  }
+
+  .os-host button,
+  #panel-tab-content button,
+  .sidebar-item,
+  .sidebar-header button[title='Shortcuts'],
+  [data-selected='true'] > svg {
+    color: var(--cds-global-typography-color-400) !important;
+  }
+
+  table {
+    color: var(--cds-global-typography-color-500) !important;
+    background: var(--cds-alias-object-container-background) !important;
+  }
+
+  table tr,
+  table td,
+  table th {
+    color: var(--cds-global-typography-color-500) !important;
+    background: transparent !important;
+  }
+
+  table td button {
+    color: var(--cds-global-typography-color-500) !important;
+    font-weight: 400 !important;
+    background: var(--cds-alias-object-interaction-background) !important;
+  }
+
+  table tr {
+    border-top-color: var(--cds-alias-object-border-color) !important;
+  }
+
+  .sidebar-header button[title='Shortcuts'] {
+    box-shadow: var(--cds-alias-object-border-color) 0 0 0 1px inset !important;
+  }
+
+  [data-selected='true'] {
+    background: var(--cds-alias-object-interaction-background-selected) !important;
+    font-weight: 500 !important;
+  }
+
+  [data-selected='true']:hover {
+    background: var(--cds-alias-object-interaction-background-hover) !important;
+  }
+
+  #root > div > div:last-child > div {
+    box-shadow: var(--cds-alias-object-shadow-200) !important;
+  }
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    if (location.hostname === 'localhost') {
+      document.body.setAttribute('localhost', '');
+    }
+  });
+</script>
+<script type="text/javascript">
+  if (/clarity.design/.test(window.location.href)) {
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-86120402-1', 'auto');
+  }
+</script>

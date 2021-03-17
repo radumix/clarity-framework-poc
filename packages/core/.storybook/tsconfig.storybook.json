@@ -1,0 +1,20 @@
+{
+  "include": ["../**/*.stories.ts", "../docs/**/*", "../dist"],
+  "exclude": ["node_modules", "../**/test/*.ts", "../**/*.spec.ts", "../build/**/*.ts"],
+  "compilerOptions": {
+    "rootDirs": ["src", "docs"],
+    "target": "es2017",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["es2017", "dom"],
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "baseUrl": "../",
+    "paths": {
+      "@cds/core": ["./dist/core"],
+      "@cds/core/*": ["./dist/core/*"],
+      "@cds/core/*/register": ["./dist/core/*/register"]
+    }
+  }
+}

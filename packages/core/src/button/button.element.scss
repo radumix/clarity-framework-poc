@@ -1,0 +1,82 @@
+// Copyright (c) 2016-2021 VMware, Inc. All Rights Reserved.
+// This software is released under MIT license.
+// The full license information can be found in LICENSE in the root directory of this project.
+
+@import './../styles/tokens/generated/index';
+@import './../styles/mixins/mixins';
+
+:host {
+  --font-weight: #{$cds-global-typography-font-weight-semibold};
+  --font-family: #{$cds-global-typography-font-family};
+  --text-transform: uppercase;
+  --letter-spacing: 0.12em;
+}
+
+.private-host {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  letter-spacing: var(--letter-spacing);
+  text-transform: var(--text-transform);
+}
+
+:host([size='sm']) .private-host {
+  --letter-spacing: 0.073em;
+}
+
+:host([action='flat']) ::slotted(cds-badge),
+:host([action='outline']) ::slotted(cds-badge) {
+  --border-color: #{$cds-alias-status-info};
+  --background: #{$cds-alias-status-info};
+  --color: #{$cds-global-typography-color-100};
+}
+
+:host([action='outline'][status='success']) ::slotted(cds-badge) {
+  --border-color: #{$cds-alias-status-success};
+  --background: #{$cds-alias-status-success};
+  --color: #{$cds-global-typography-color-100};
+}
+
+:host([action='outline'][status='danger']) ::slotted(cds-badge) {
+  --border-color: #{$cds-alias-status-danger};
+  --background: #{$cds-alias-status-danger};
+  --color: #{$cds-global-typography-color-100};
+}
+
+:host(:not([action='outline']):not([action='flat'])) ::slotted(cds-badge) {
+  --background: #{$cds-alias-object-opacity-0};
+  --border-color: #{$cds-global-typography-color-100};
+  --color: #{$cds-global-typography-color-100};
+}
+
+:host([action='flat'][disabled]) ::slotted(cds-badge) {
+  --background: #{$cds-alias-object-opacity-0};
+  --border-color: #{$cds-alias-status-neutral};
+  --color: #{$cds-alias-status-neutral};
+}
+
+:host([status='inverse']) ::slotted(cds-badge) {
+  --border-color: #{$cds-global-typography-color-100} !important;
+  --background: #{$cds-alias-object-opacity-0} !important;
+  --color: #{$cds-global-typography-color-100} !important;
+  --font-weight: #{$cds-global-typography-font-weight-semibold} !important;
+}
+
+:host([disabled]) {
+  ::slotted(cds-badge) {
+    --background: #{$cds-alias-object-opacity-0} !important;
+    --border-color: #{$cds-alias-status-disabled} !important;
+    --color: #{$cds-alias-status-disabled} !important;
+  }
+}
+
+:host([disabled][status='inverse']),
+:host([disabled][action='outline']) {
+  ::slotted(cds-badge) {
+    --border-color: #{$cds-alias-status-disabled-tint} !important;
+    --color: #{$cds-alias-status-disabled-tint} !important;
+  }
+}
+
+::slotted(span) {
+  @include line-height-eraser(0em);
+}

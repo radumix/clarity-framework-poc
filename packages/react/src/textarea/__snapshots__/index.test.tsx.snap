@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CdsTextarea snapshot 1`] = `
+<div>
+  <h3>
+    Vertical
+  </h3>
+  <CdsFormGroup
+    layout="vertical"
+  >
+    <cds-form-group(CustomElement)
+      __forwardedRef={null}
+      layout="vertical"
+    >
+      <cds-form-group
+        __forwardedRef={null}
+      >
+        <CdsTextarea
+          layout="vertical"
+        >
+          <cds-textarea(CustomElement)
+            __forwardedRef={null}
+            layout="vertical"
+          >
+            <cds-textarea
+              __forwardedRef={null}
+              layout="vertical"
+            >
+              <label>
+                label
+              </label>
+              <textarea />
+              <CdsControlMessage>
+                <cds-control-message(CustomElement)
+                  __forwardedRef={null}
+                >
+                  <cds-control-message
+                    __forwardedRef={null}
+                  >
+                    message text
+                  </cds-control-message>
+                </cds-control-message(CustomElement)>
+              </CdsControlMessage>
+            </cds-textarea>
+          </cds-textarea(CustomElement)>
+        </CdsTextarea>
+        <CdsTextarea
+          layout="vertical"
+          status="error"
+        >
+          <cds-textarea(CustomElement)
+            __forwardedRef={null}
+            layout="vertical"
+            status="error"
+          >
+            <cds-textarea
+              __forwardedRef={null}
+              layout="vertical"
+            >
+              <label>
+                error status
+              </label>
+              <textarea />
+              <CdsControlMessage
+                status="error"
+              >
+                <cds-control-message(CustomElement)
+                  __forwardedRef={null}
+                  status="error"
+                >
+                  <cds-control-message
+                    __forwardedRef={null}
+                  >
+                    error message
+                  </cds-control-message>
+                </cds-control-message(CustomElement)>
+              </CdsControlMessage>
+            </cds-textarea>
+          </cds-textarea(CustomElement)>
+        </CdsTextarea>
+        <CdsTextarea
+          layout="vertical"
+          status="success"
+        >
+          <cds-textarea(CustomElement)
+            __forwardedRef={null}
+            layout="vertical"
+            status="success"
+          >
+            <cds-textarea
+              __forwardedRef={null}
+              layout="vertical"
+            >
+              <label>
+                success status
+              </label>
+              <textarea />
+              <CdsControlMessage
+                status="success"
+              >
+                <cds-control-message(CustomElement)
+                  __forwardedRef={null}
+                  status="success"
+                >
+                  <cds-control-message
+                    __forwardedRef={null}
+                  >
+                    success message
+                  </cds-control-message>
+                </cds-control-message(CustomElement)>
+              </CdsControlMessage>
+            </cds-textarea>
+          </cds-textarea(CustomElement)>
+        </CdsTextarea>
+      </cds-form-group>
+    </cds-form-group(CustomElement)>
+  </CdsFormGroup>
+  <h3>
+    Horizontal
+  </h3>
+  <CdsFormGroup
+    layout="horizontal"
+  >
+    <cds-form-group(CustomElement)
+      __forwardedRef={null}
+      layout="horizontal"
+    >
+      <cds-form-group
+        __forwardedRef={null}
+      >
+        <CdsTextarea
+          layout="horizontal"
+        >
+          <cds-textarea(CustomElement)
+            __forwardedRef={null}
+            layout="horizontal"
+          >
+            <cds-textarea
+              __forwardedRef={null}
+              layout="horizontal"
+            >
+              <label>
+                label
+              </label>
+              <textarea />
+              <CdsControlMessage>
+                <cds-control-message(CustomElement)
+                  __forwardedRef={null}
+                >
+                  <cds-control-message
+                    __forwardedRef={null}
+                  >
+                    message text
+                  </cds-control-message>
+                </cds-control-message(CustomElement)>
+              </CdsControlMessage>
+            </cds-textarea>
+          </cds-textarea(CustomElement)>
+        </CdsTextarea>
+        <CdsTextarea
+          layout="horizontal"
+          status="error"
+        >
+          <cds-textarea(CustomElement)
+            __forwardedRef={null}
+            layout="horizontal"
+            status="error"
+          >
+            <cds-textarea
+              __forwardedRef={null}
+              layout="horizontal"
+            >
+              <label>
+                error status
+              </label>
+              <textarea />
+              <CdsControlMessage
+                status="error"
+              >
+                <cds-control-message(CustomElement)
+                  __forwardedRef={null}
+                  status="error"
+                >
+                  <cds-control-message
+                    __forwardedRef={null}
+                  >
+                    error message
+                  </cds-control-message>
+                </cds-control-message(CustomElement)>
+              </CdsControlMessage>
+            </cds-textarea>
+          </cds-textarea(CustomElement)>
+        </CdsTextarea>
+        <CdsTextarea
+          layout="horizontal"
+          status="success"
+        >
+          <cds-textarea(CustomElement)
+            __forwardedRef={null}
+            layout="horizontal"
+            status="success"
+          >
+            <cds-textarea
+              __forwardedRef={null}
+              layout="horizontal"
+            >
+              <label>
+                success status
+              </label>
+              <textarea />
+              <CdsControlMessage
+                status="success"
+              >
+                <cds-control-message(CustomElement)
+                  __forwardedRef={null}
+                  status="success"
+                >
+                  <cds-control-message
+                    __forwardedRef={null}
+                  >
+                    success message
+                  </cds-control-message>
+                </cds-control-message(CustomElement)>
+              </CdsControlMessage>
+            </cds-textarea>
+          </cds-textarea(CustomElement)>
+        </CdsTextarea>
+      </cds-form-group>
+    </cds-form-group(CustomElement)>
+  </CdsFormGroup>
+</div>
+`;

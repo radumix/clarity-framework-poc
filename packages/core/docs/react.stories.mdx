@@ -1,0 +1,90 @@
+import { Meta, Story, Preview, API } from '@storybook/addon-docs/blocks';
+import { html, LitElement } from 'lit-element';
+
+<Meta title="Documentation/React" />
+
+<Story id="stories-clarity--theme-switcher" inline={true} />
+
+# React
+
+Clarity Core is a suite of Web Components from the [Clarity Design System](https://clarity.design).
+Because React [doesn't fully interoperate with custom elements](https://custom-elements-everywhere.com/)
+we have developed this library of React components that wrap Clarity Web Components
+
+## Installation
+
+1.  Install the Clarity Core package from npm.
+
+```bash
+npm install @cds/core --save
+```
+
+2.  Install the Clarity React package from npm.
+
+```bash
+npm install @cds/react --save
+```
+
+3.  Import desired component into your JavaScript or TypeScript
+
+```typescript
+import { CdsModal, CdsModalActions, CdsModalContent, CdsModalHeader } from '@cds/react/modal';
+```
+
+4.  Use React wrapped Web Component in React
+
+Web Components are kebab cased tag name which in `@cds/react` will be converted to
+Pascal case. For example, `<cds-alert>` element will be `<CdsAlert>` in React.
+In addition our event props will follow the React naming convention of camel case for props
+and start with `on`. So the custom event `closeChange` will be `onCloseChange`.
+
+```jsx
+/*
+Example of an alert component in React
+- status - attribute/property style hook
+- closable - setting the 'closable' property on the element
+- onCloseChange - listen for the 'closeChange' custom event
+*/
+
+<CdsAlert status="info" closable={this.state.closable} onCloseChange={this.log}>
+  Hello World
+</CdsAlert>
+```
+
+## Using refs
+
+In React [refs](https://reactjs.org/docs/refs-and-the-dom.html) provide a way to access DOM nodes or
+React elements created in the render method. Because web components' lifecycle lives outside of react's
+lifecycle our components provide a way to use refs when the underlying web component has finished rendering:
+
+```typescript
+import React from 'react';
+import { CdsButton } from '@cds/react/button';
+
+export default class App extends React.Component<{}, {}> {
+  buttonRef: React.RefObject<CdsButton>;
+
+  constructor(props: any) {
+    super(props);
+    this.buttonRef = React.createRef<CdsButton>();
+  }
+
+  componentDidMount() {
+    this.buttonRef.current.nativeElement.then(element => {
+      element.focus();
+    });
+  }
+
+  render() {
+    return (
+      <div>
+        <CdsButton ref={this.buttonRef}>My button</CdsButton>
+      </div>
+    );
+  }
+}
+```
+
+<a href="https://github.com/vmware/clarity/tree/master/apps" target="_blank" rel="noopener">
+  <cds-button>Example Apps</cds-button>
+</a>

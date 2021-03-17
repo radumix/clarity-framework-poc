@@ -1,0 +1,551 @@
+{
+  "$schema": "./schema.json",
+  "releases": [
+    {
+      "version": "5.0.3",
+      "date": "2021-03-04",
+      "description": "This is a bug fix release.",
+      "fix": [
+        {
+          "issue": 5675,
+          "title": "Core storybook theme switcher",
+          "project": "Core",
+          "scope": "Utility"
+        },
+        {
+          "issue": 5656,
+          "title": "Core global css token reference",
+          "project": "Core",
+          "scope": "Design Tokens"
+        },
+        {
+          "issue": 5648,
+          "title": "Static errors inside datagrid-pagination",
+          "project": "Angular",
+          "scope": "Datagrid"
+        },
+        {
+          "issue": 5646,
+          "title": "React input native input event change",
+          "project": "Core",
+          "scope": "Input"
+        },
+        {
+          "issue": 5653,
+          "title": "Combobox popover not repositioned after selection",
+          "project": "Angular",
+          "scope": "Combobox"
+        },
+        {
+          "issue": 5647,
+          "title": "Disabled radio button style",
+          "project": "Angular",
+          "scope": "Form"
+        },
+        {
+          "issue": 5638,
+          "title": "Landing first image on super wide screen",
+          "project": "Website",
+          "scope": "Documentation"
+        },
+        {
+          "issue": 5639,
+          "title": "Website modal demos not working",
+          "project": "Website",
+          "scope": "Documentation"
+        }
+      ]
+    },
+    {
+      "version": "5.0.2",
+      "date": "2021-02-18",
+      "description": "This is a bug fix release.",
+      "fix": [
+        {
+          "issue": 5616,
+          "title": "Fix strictTemplates errors",
+          "project": "Angular",
+          "scope": "Utility"
+        },
+        {
+          "issue": 5624,
+          "title": "Update docs for progress circle and dividers",
+          "project": "Core",
+          "scope": "Documentation"
+        },
+        {
+          "issue": 5623,
+          "title": "Fix Core button padding",
+          "project": "Core",
+          "scope": "Button"
+        },
+        {
+          "issue": 5617,
+          "title": "Combobox fixes - set id, prevent double event on Esc, fix click-to-close, prevent focus-error",
+          "project": "Angular",
+          "scope": "Combobox"
+        },
+        {
+          "issue": 5620,
+          "title": "Vertically center text in alert",
+          "project": "Angular",
+          "scope": "Alert"
+        },
+        {
+          "issue": 5594,
+          "title": "Fix Core accordion register icon element",
+          "project": "Core",
+          "scope": "Accordion"
+        },
+        {
+          "issue": 5590,
+          "title": "Fix accordion Safari flex gap issue overflow",
+          "project": "Core",
+          "scope": "Accordion"
+        },
+        {
+          "issue": 5574,
+          "title": "Fix datagrids in forms with checkboxes",
+          "project": "Angular",
+          "scope": "Datagrid"
+        },
+        {
+          "issue": 5577,
+          "title": "Fix Core inline button color",
+          "project": "Core",
+          "scope": "Button"
+        },
+        {
+          "issue": 5571,
+          "title": "Fix Core input control spacing",
+          "project": "Core",
+          "scope": "Input"
+        },
+        {
+          "issue": 5570,
+          "title": "Fix Core input control disabled style",
+          "project": "Core",
+          "scope": "Input"
+        },
+        {
+          "issue": 5567,
+          "title": "Fix Core button space and inverse style",
+          "project": "Core",
+          "scope": "Button"
+        },
+        {
+          "issue": 5569,
+          "title": "Fix Core input control readonly style",
+          "project": "Core",
+          "scope": "Input"
+        }
+      ]
+    },
+    {
+      "version": "5.0.1",
+      "date": "2021-02-04",
+      "description": "This is a bug fix release.",
+      "fix": [
+        {
+          "issue": 5533,
+          "title": "Tag a11y enhancement",
+          "project": "Core",
+          "scope": "Tag"
+        },
+        {
+          "issue": 5545,
+          "title": "(inline-button) use same color on hover as regular links",
+          "project": "Core",
+          "scope": "Button"
+        },
+        {
+          "issue": 5518,
+          "title": "Core disabled outline/flat button",
+          "project": "Core",
+          "scope": "Button"
+        },
+        {
+          "issue": 5510,
+          "title": "Core code snippets code formatting",
+          "project": "Core",
+          "scope": "Documentation"
+        },
+        {
+          "issue": 5489,
+          "title": "Combobox no list reset on blur",
+          "project": "Angular",
+          "scope": "Combobox"
+        },
+        {
+          "issue": 5492,
+          "title": "Core storybook links, invalid html demo",
+          "project": "Core",
+          "scope": "Documentation"
+        },
+        {
+          "issue": 5487,
+          "title": "Combobox options exception on null values",
+          "project": "Angular",
+          "scope": "Combobox"
+        },
+        {
+          "issue": 5439,
+          "title": "Reorder link styles so :hover will have effect even on visited links",
+          "project": "Angular",
+          "scope": "Utility"
+        },
+        {
+          "issue": 5448,
+          "title": "Turn-on strictTemplates for Angular",
+          "project": "Angular",
+          "scope": "Utility"
+        },
+        {
+          "issue": 5482,
+          "title": "Visited links styling",
+          "project": "Angular",
+          "scope": "Utility"
+        }
+      ]
+    },
+    {
+      "version": "5.0.0",
+      "date": "2021-01-21",
+      "description": "This is the official 5.0.0 release.",
+      "fix": [
+        {
+          "issue": 5469,
+          "title": "Fix core package exports",
+          "project": "Core",
+          "scope": "Build"
+        },
+        {
+          "issue": 5259,
+          "title": "Fix color for status badge-warning",
+          "project": "Angular",
+          "scope": "Badge"
+        },
+        {
+          "issue": 5452,
+          "title": "Fix tag a11y",
+          "project": "Core",
+          "scope": "a11y"
+        },
+        {
+          "issue": 5449,
+          "title": "Fix password input aria-label",
+          "project": "Core",
+          "scope": "Forms"
+        },
+        {
+          "issue": 5454,
+          "title": "Fix core package exports",
+          "project": "Core",
+          "scope": "Build"
+        },
+        {
+          "issue": 4718,
+          "title": "Fix tab navigation inside stack-block",
+          "project": "Angular",
+          "scope": "Stack View"
+        }
+      ]
+    },
+    {
+      "version": "5.0.0-rc.1",
+      "date": "2021-01-11",
+      "description": "This is a release candidate for our next major version, which contains bug @cds/core fixes.",
+      "fix": [
+        {
+          "title": "Simplify fallback fonts for system fonts.",
+          "project": "Core",
+          "scope": "Typography"
+        },
+        {
+          "title": "Fix CSS Flex Gap fallback support for Safari Technical Preview",
+          "project": "Core",
+          "scope": "Layout"
+        },
+        {
+          "title": "Fix path issues for CDN support.",
+          "project": "Core",
+          "scope": "Build"
+        },
+        {
+          "title": "Fix contrast and theme issues.",
+          "project": "Core",
+          "scope": "Themes"
+        },
+        {
+          "issue": 5397,
+          "title": "Fix form state issues when programmatically set.",
+          "project": "Core",
+          "scope": "Forms"
+        }
+      ]
+    },
+    {
+      "version": "5.0.0-rc.0",
+      "date": "2021-01-07",
+      "description": "This is a release candidate for our next major version, which contains new features and bug fixes. We've also added a package that provides Angular modules for Core components.",
+      "feat": [
+        {
+          "issue": 5337,
+          "title": "Export icon names from the entrypoint of @clr/core/icon",
+          "project": "Core",
+          "scope": "Icons"
+        },
+        {
+          "issue": 5288,
+          "title": "Angular modules for Core components",
+          "project": "Angular",
+          "scope": "Build"
+        },
+        {
+          "issue": 4839,
+          "title": "Volume 18 icons",
+          "project": "Core",
+          "scope": "Icons"
+        },
+        {
+          "issue": 4502,
+          "title": "Core i18n",
+          "project": "Core",
+          "scope": "i18n",
+          "breaking": true
+        },
+        {
+          "issue": 5389,
+          "title": "Allow env flag set for core logging",
+          "project": "Core",
+          "scope": "Build"
+        },
+        {
+          "issue": 5200,
+          "title": "Overlay component",
+          "project": "Core",
+          "scope": "Modal",
+          "breaking": true
+        },
+        {
+          "issue": 5267,
+          "title": "Add eslint rule for detecting and fixing clr icons",
+          "project": "Clarity Adoption",
+          "scope": "Build"
+        },
+        {
+          "issue": 5400,
+          "title": "Core themes",
+          "project": "Core",
+          "scope": "Themes",
+          "breaking": true
+        }
+      ],
+      "fix": [
+        {
+          "issue": 5428,
+          "title": "Positioning of overlay backdrop in demos in safari",
+          "project": "Core",
+          "scope": "Modal"
+        },
+        {
+          "issue": 5424,
+          "title": "Improve alert examples aria label",
+          "project": "Core",
+          "scope": "Alerts"
+        },
+        {
+          "issue": 5423,
+          "title": "Make the eslint rule for icons work with multiple root elements",
+          "project": "Clarity Adoption",
+          "scope": "Build"
+        },
+        {
+          "issue": 5409,
+          "title": "Prevent Core and UI text collisions",
+          "project": "Core",
+          "scope": "UI"
+        },
+        {
+          "issue": 5405,
+          "title": "Fix inherit styles",
+          "project": "Core",
+          "scope": "Icons"
+        },
+        {
+          "issue": 5355,
+          "title": "Fix not found icon loading state",
+          "project": "Core",
+          "scope": "Icons",
+          "breaking": true
+        },
+        {
+          "issue": 5396,
+          "title": "Core icon service sync",
+          "project": "Core",
+          "scope": "Icons"
+        },
+        {
+          "issue": 5388,
+          "title": "Core form alignment with range and input icon",
+          "project": "Core",
+          "scope": "Form"
+        },
+        {
+          "issue": 5374,
+          "title": "Allow apps to disable focus management on page change",
+          "project": "Angular",
+          "scope": "Datagrid"
+        },
+        {
+          "issue": 5370,
+          "title": "Core v5 fixes",
+          "project": "Core"
+        },
+        {
+          "issue": 5373,
+          "title": "File input a11y improvement",
+          "project": "Core",
+          "scope": "Form"
+        },
+        {
+          "issue": 5372,
+          "title": "Password input a11y improvement",
+          "project": "Core",
+          "scope": "Form"
+        },
+        {
+          "issue": 5332,
+          "title": "Inherit icon color from `currentColor`",
+          "project": "Core",
+          "scope": "Icons"
+        },
+        {
+          "issue": 5101,
+          "title": "Simplify control state management",
+          "project": "Angular",
+          "scope": "Combobox"
+        },
+        {
+          "issue": 5101,
+          "title": "Consolidate cdr for simultaneous children updates",
+          "project": "Angular",
+          "scope": "Treeview"
+        }
+      ]
+    },
+    {
+      "version": "5.0.0-next.0",
+      "date": "2020-12-02",
+      "description": "This is a beta release for our next major version which contains new components and bug fixes. We will no longer support actively support IE11, and are preparing major features for helping existing Clarity Angular applications adopt Core.",
+      "feat": [
+        {
+          "issue": 5200,
+          "title": "Add accordion components to Core",
+          "project": "Core",
+          "scope": "Accordion"
+        },
+        {
+          "issue": 4909,
+          "title": "Add progress and circular progress components to Core",
+          "project": "Core",
+          "scope": "Progress"
+        },
+        {
+          "issue": 5284,
+          "title": "Theming support for Core",
+          "project": "Core",
+          "scope": "Theme"
+        },
+        {
+          "issue": 5190,
+          "title": "Angular updated to use Core icons for tree shaking",
+          "project": "Angular",
+          "scope": "Build"
+        },
+        {
+          "issue": 5225,
+          "title": "Remove support for IE11",
+          "project": "Core",
+          "scope": "Build",
+          "breaking": true
+        }
+      ],
+      "fix": [
+        {
+          "issue": 5230,
+          "title": "Update Core to use TypeScript v4",
+          "project": "Core",
+          "scope": "Build"
+        },
+        {
+          "issue": 5110,
+          "title": "Remove deprecated icons",
+          "project": "Core",
+          "scope": "Icon"
+        },
+        {
+          "issue": 5090,
+          "title": "Remove base64 code from css to reduce bundle sizes",
+          "project": "Core",
+          "scope": "Progress Bar"
+        },
+        {
+          "issue": 4933,
+          "title": "Add support for right side icons inside of buttons",
+          "project": "Core",
+          "scope": "Button"
+        },
+        {
+          "issue": 5302,
+          "title": "Fix submit buttons to not cause accessibility issues",
+          "project": "Core",
+          "scope": "Button"
+        },
+        {
+          "issue": 5297,
+          "title": "Update tags for accessibility requirements and easier use",
+          "project": "Core",
+          "scope": "Tag"
+        },
+        {
+          "issue": 5283,
+          "title": "Improve how screen readers handle forms and input groups",
+          "project": "Core",
+          "scope": "Form"
+        },
+        {
+          "issue": 5281,
+          "title": "Improve screen reader support for alerts and alert groups",
+          "project": "Core",
+          "scope": "Alert"
+        },
+        {
+          "issue": 5281,
+          "title": "Improve the accessibility of badges and buttons",
+          "project": "Core",
+          "scope": "Badge"
+        },
+        {
+          "issue": 5233,
+          "title": "Remove the height restrictions and truncation of text in alerts",
+          "project": "Core",
+          "scope": "Alert"
+        },
+        {
+          "issue": 5250,
+          "title": "Remove legacy dir attribute on icons for better accessibility support, use direction attribute instead",
+          "project": "Core",
+          "scope": "Icon",
+          "breaking": true
+        },
+        {
+          "issue": 5214,
+          "title": "Fix alignment and color consistency of icons and spinners",
+          "project": "Core",
+          "scope": "Icon"
+        }
+      ]
+    }
+  ]
+}

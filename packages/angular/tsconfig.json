@@ -1,0 +1,35 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "noImplicitThis": false,
+    "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": false,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2017",
+    "lib": ["es2018", "dom"],
+    "typeRoots": ["node_modules/@types"],
+    "paths": {
+      "@clr/angular": ["dist/clr-angular"],
+      "@clr/angular/*": ["dist/clr-angular/*"],
+      "@cds/angular": ["dist/cds-angular"],
+      "@cds/angular/*": ["dist/cds-angular/*"],
+      "@cds/core/*": ["../../dist/core/*"],
+      "@cds/core": ["../../dist/core"]
+    }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true,
+    "strictTemplates": true
+  }
+}

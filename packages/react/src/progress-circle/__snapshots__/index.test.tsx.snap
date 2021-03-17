@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CdsProgressCircle snapshot 1`] = `
+<div>
+  <CdsProgressCircle
+    status="info"
+    value={49}
+  >
+    <cds-progress-circle(CustomElement)
+      __forwardedRef={null}
+      status="info"
+      value={49}
+    >
+      <cds-progress-circle
+        __forwardedRef={null}
+      />
+    </cds-progress-circle(CustomElement)>
+  </CdsProgressCircle>
+  <CdsProgressCircle
+    value={0}
+  >
+    <cds-progress-circle(CustomElement)
+      __forwardedRef={null}
+      value={0}
+    >
+      <cds-progress-circle
+        __forwardedRef={null}
+      />
+    </cds-progress-circle(CustomElement)>
+  </CdsProgressCircle>
+  <CdsProgressCircle
+    status="success"
+    value={100}
+  >
+    <cds-progress-circle(CustomElement)
+      __forwardedRef={null}
+      status="success"
+      value={100}
+    >
+      <cds-progress-circle
+        __forwardedRef={null}
+      />
+    </cds-progress-circle(CustomElement)>
+  </CdsProgressCircle>
+</div>
+`;

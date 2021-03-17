@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CdsModal snapshot 1`] = `
+<div>
+  <CdsModal>
+    <cds-modal(CustomElement)
+      __forwardedRef={null}
+    >
+      <cds-modal
+        __forwardedRef={null}
+      >
+        <CdsModalHeader>
+          <cds-modal-header(CustomElement)
+            __forwardedRef={null}
+          >
+            <cds-modal-header
+              __forwardedRef={null}
+            >
+              <h3
+                cds-text="title"
+              >
+                My Modal
+              </h3>
+            </cds-modal-header>
+          </cds-modal-header(CustomElement)>
+        </CdsModalHeader>
+        <CdsModalContent>
+          <cds-modal-content(CustomElement)
+            __forwardedRef={null}
+          >
+            <cds-modal-content
+              __forwardedRef={null}
+            >
+              <div
+                cds-layout="vertical gap:md p-y:xs"
+              >
+                <p
+                  cds-text="body"
+                >
+                  Lorem Ipsum
+                </p>
+              </div>
+            </cds-modal-content>
+          </cds-modal-content(CustomElement)>
+        </CdsModalContent>
+        <CdsModalActions>
+          <cds-modal-actions(CustomElement)
+            __forwardedRef={null}
+          >
+            <cds-modal-actions
+              __forwardedRef={null}
+            >
+              <div
+                cds-layout="horizontal gap:sm align:right"
+              >
+                Foo
+              </div>
+            </cds-modal-actions>
+          </cds-modal-actions(CustomElement)>
+        </CdsModalActions>
+      </cds-modal>
+    </cds-modal(CustomElement)>
+  </CdsModal>
+</div>
+`;

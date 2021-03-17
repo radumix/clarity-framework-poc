@@ -1,0 +1,83 @@
+import { Meta, Props, Story, Preview, API } from '@storybook/addon-docs/blocks';
+import { html, LitElement } from 'lit-element';
+
+<Meta title="Components/Modal" />
+
+# Modal
+
+Modals provide information or help a user complete a task. They require the user to take an action to dismiss them.
+
+## Installation
+
+To use the modal component import the component in your JavaScript.
+
+```typescript
+import '@cds/core/modal/register.js';
+```
+
+```html
+<cds-modal>
+  <cds-modal-header>
+    <h3 cds-text="title">I have a nice title</h3>
+  </cds-modal-header>
+  <cds-modal-content>
+    <p cds-text="body">But not much to say...</p>
+  </cds-modal-content>
+  <cds-modal-actions>
+    <cds-button action="outline">Cancel</cds-button>
+    <cds-button>Ok</cds-button>
+  </cds-modal-actions>
+</cds-modal>
+```
+
+## Size - Default
+
+<Preview>
+  <Story id="stories-modal--default-size" />
+</Preview>
+
+## Size - Small
+
+<Preview>
+  <Story id="stories-modal--small" />
+</Preview>
+
+## Size - Large
+
+<Preview>
+  <Story id="stories-modal--large" />
+</Preview>
+
+## Size - Extra Large
+
+<Preview>
+  <Story id="stories-modal--extra-large" />
+</Preview>
+
+## Dark Theme
+
+<Preview>
+  <Story id="stories-modal--dark-theme" />
+</Preview>
+
+## Managing Focus in a Modal
+
+<Preview>
+  <Story id="stories-modal--focus" />
+</Preview>
+
+## Scrolling Modal Content
+
+<Preview>
+  <Story id="stories-modal--scroll-content" />
+</Preview>
+
+## Custom Styles
+
+<Preview>
+  <Story id="stories-modal--custom-styles" />
+</Preview>
+
+## API
+
+<Props of={'cds-modal'} />

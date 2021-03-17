@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CdsDivider snapshot 1`] = `
+<div>
+  <CdsDivider>
+    <cds-divider(CustomElement)
+      __forwardedRef={null}
+    >
+      <cds-divider
+        __forwardedRef={null}
+      />
+    </cds-divider(CustomElement)>
+  </CdsDivider>
+  <div
+    style={
+      Object {
+        "height": "140px",
+        "marginTop": "24px",
+      }
+    }
+  >
+    <CdsDivider
+      orientation="vertical"
+    >
+      <cds-divider(CustomElement)
+        __forwardedRef={null}
+        orientation="vertical"
+      >
+        <cds-divider
+          __forwardedRef={null}
+        >
+          1
+        </cds-divider>
+      </cds-divider(CustomElement)>
+    </CdsDivider>
+  </div>
+</div>
+`;
